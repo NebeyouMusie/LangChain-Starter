@@ -12,6 +12,10 @@ from langserve import add_routes
 
 load_dotenv()
 
+# if you want to trace your LLM calls you can use Langsmith
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 # 1. Create prompt template
