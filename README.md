@@ -19,7 +19,7 @@
  4. Navigate to the projects directory `cd ./LangChain-Starter` using your terminal
  5. Install Libraries: `pip install -r requirements.txt`
  6. Enter your `GROQ_API_KEY` and `LANGCHAIN_API_KEY` in the `example.env` file then change the file to `.env`. You can get your `GROQ_API_KEY` from [here](https://console.groq.com/keys) and your `LANGCHAIN_API_KEY` from [here](https://smith.langchain.com/) in the settings page.
- 7. run `python serve.py` then, we should see our chain being served at http://localhost:8000
+ 7. run `python serve.py` then, you should see the chain being served at http://localhost:8000
  8. run `python client.py` you'll see a response in your terminal 
 
 ## Collaboration
