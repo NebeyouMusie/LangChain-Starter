@@ -2,3 +2,4 @@ langchain
 langchain-groq
 python-dotenv
 fastapi
+langserve
